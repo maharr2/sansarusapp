@@ -1,38 +1,63 @@
-.App {
+body {
+  padding: 20px;
+  margin: 0;
+  background-color: #fff;
+}
+h1, h2, p, ul, li {
+  font-family: "Open Sans",sans-serif;
+}
+ul {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul.nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul.nav {
+  padding: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul.nav li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
 }
-
-.App-link {
-  color: #61dafb;
+ul.nav li a:hover {
+  color:#79ccb5;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pages {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
 }
+.pages h2 {
+  padding: 0;
+  margin: 0;
+}
+.home, .stackery, .about{
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  color: #343a40;
+}
+.active {
+  border-bottom: 5px solid #79ccb5;
+}
+.sansarus-logo, .react-logo{
+  width: 250px;
+}
+.plus{
+  font-size: 3rem;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+ table, td, th {
+            border: 1px solid gray;
+            border-spacing: 15px;
+            width: 500px;
+         }
