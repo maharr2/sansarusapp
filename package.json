@@ -1,5 +1,5 @@
 {
-  "name": "react-front-end",
+  "name": "sansarusapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "sansarus-app"
   },
   "browserslist": {
     "production": [
