@@ -20,11 +20,11 @@ class Post extends Component {
     <th>Client Location</th>
   </tr>
   <tr>
-    <td><a href="../src/job/iOS.pdf" target="_blank"> iOS Developer</a></td>
+    <td><a href="https://www.ziprecruiter.com/job/455f02a5" target="_blank"> iOS Developer</a></td>
     <td>SF, CA</td>
   </tr>
   <tr>
-    <td><a href="../src/job/android.pdf" target="_blank"> Android Developer</a></td>
+    <td><a href="https://www.ziprecruiter.com/job/154dfd27" target="_blank"> Android Developer</a></td>
     <td>SF, CA</td>
   </tr>
 </table>
